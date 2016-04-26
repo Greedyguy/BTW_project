@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service Start"
+            android:id="@+id/service_btn"
+            android:onClick="onServiceBtnClicked"
+    />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wifi Connect"
+            android:id="@+id/wifi_btn"
+            android:onClick="onWifiBtnClicked"
+    />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bluetooth Connect"
+            android:id="@+id/bluetooth_btn"
+            android:onClick="onBleBtnClicked"
+    />
+</LinearLayout>
+
